@@ -1,0 +1,611 @@
+@prefix hub: <https://hub.lnu.edu.ua/kg/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hub:Stmt_001 a rdf:Statement ;
+    rdf:object hub:Metric_Recall_5 ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:Hybrid_RRF ;
+    prov:wasDerivedFrom "DOC-01" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_002 a rdf:Statement ;
+    rdf:object hub:90_днів ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:RFM_Scoring ;
+    prov:wasDerivedFrom "DOC-01" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 63 .
+
+hub:Stmt_003 a rdf:Statement ;
+    rdf:object hub:90_днів ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:Metric_LTV ;
+    prov:wasDerivedFrom "DOC-01" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 63 .
+
+hub:Stmt_004 a rdf:Statement ;
+    rdf:object hub:Metric_CTR ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:SASRec ;
+    prov:wasDerivedFrom "DOC-02" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_005 a rdf:Statement ;
+    rdf:object hub:30_днів ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:MCC_5411 ;
+    prov:wasDerivedFrom "DOC-02" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 51 .
+
+hub:Stmt_006 a rdf:Statement ;
+    rdf:object hub:Segment_VIP ;
+    rdf:predicate hub:APPLIES_TO ;
+    rdf:subject hub:BNPL_Installment ;
+    prov:wasDerivedFrom "DOC-03" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_007 a rdf:Statement ;
+    rdf:object hub:5pct ;
+    rdf:predicate hub:GOVERNED_BY ;
+    rdf:subject hub:BNPL_Installment ;
+    prov:wasDerivedFrom "DOC-03" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 75 .
+
+hub:Stmt_008 a rdf:Statement ;
+    rdf:object hub:5pct ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:PCI_DSS ;
+    prov:wasDerivedFrom "DOC-03" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 75 .
+
+hub:Stmt_009 a rdf:Statement ;
+    rdf:object hub:Segment_Cold_Start ;
+    rdf:predicate hub:MITIGATES ;
+    rdf:subject hub:SKU_Ontology ;
+    prov:wasDerivedFrom "DOC-04" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_010 a rdf:Statement ;
+    rdf:object hub:0.05 ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:Coverage ;
+    prov:wasDerivedFrom "DOC-04" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 70 .
+
+hub:Stmt_011 a rdf:Statement ;
+    rdf:object hub:nDCG_10 ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:Personalized_PageRank ;
+    prov:wasDerivedFrom "DOC-05" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_012 a rdf:Statement ;
+    rdf:object hub:0.02 ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:Time_Decay ;
+    prov:wasDerivedFrom "DOC-05" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 65 .
+
+hub:Stmt_013 a rdf:Statement ;
+    rdf:object hub:Segment_Loyal ;
+    rdf:predicate hub:APPLIES_TO ;
+    rdf:subject hub:Cashback_Card ;
+    prov:wasDerivedFrom "DOC-06" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_014 a rdf:Statement ;
+    rdf:object hub:Segment_Prime ;
+    rdf:predicate hub:APPLIES_TO ;
+    rdf:subject hub:Credit_Limit ;
+    prov:wasDerivedFrom "DOC-07" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_015 a rdf:Statement ;
+    rdf:object hub:5pct ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:Default_Rate ;
+    prov:wasDerivedFrom "DOC-07" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 78 .
+
+hub:Stmt_016 a rdf:Statement ;
+    rdf:object hub:MCC_5732 ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:User2Vec ;
+    prov:wasDerivedFrom "DOC-08" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_017 a rdf:Statement ;
+    rdf:object hub:Segment_At_Risk ;
+    rdf:predicate hub:MITIGATES ;
+    rdf:subject hub:Antifraud_Filter ;
+    prov:wasDerivedFrom "DOC-09" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_018 a rdf:Statement ;
+    rdf:object hub:300pct ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:PCI_DSS ;
+    prov:wasDerivedFrom "DOC-09" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 61 .
+
+hub:Stmt_019 a rdf:Statement ;
+    rdf:object hub:Net_Margin ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:Margin_Aware_Ranking ;
+    prov:wasDerivedFrom "DOC-10" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_020 a rdf:Statement ;
+    rdf:object hub:5pct ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:Metric_Refund_Rate ;
+    prov:wasDerivedFrom "DOC-10" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 65 .
+
+hub:Stmt_021 a rdf:Statement ;
+    rdf:object hub:5pct ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:25pct ;
+    prov:wasDerivedFrom "DOC-10" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 65 .
+
+hub:Stmt_022 a rdf:Statement ;
+    rdf:object hub:60 ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:Hybrid_RRF ;
+    prov:wasDerivedFrom "DOC-11" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_023 a rdf:Statement ;
+    rdf:object hub:60 ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:BM25 ;
+    prov:wasDerivedFrom "DOC-11" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_024 a rdf:Statement ;
+    rdf:object hub:AOV ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:Cross_Sell_Widget ;
+    prov:wasDerivedFrom "DOC-12" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_025 a rdf:Statement ;
+    rdf:object hub:Segment_Loyal ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:BNPL_Installment ;
+    prov:wasDerivedFrom "DOC-12" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 55 .
+
+hub:Stmt_026 a rdf:Statement ;
+    rdf:object hub:Metric_Precision_10 ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:Collaborative_Filtering ;
+    prov:wasDerivedFrom "DOC-13" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_027 a rdf:Statement ;
+    rdf:object hub:MCC_5732 ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:Cashback_Card ;
+    prov:wasDerivedFrom "DOC-14" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_028 a rdf:Statement ;
+    rdf:object hub:Latency ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:Two_Stage_RecSys ;
+    prov:wasDerivedFrom "DOC-15" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_029 a rdf:Statement ;
+    rdf:object hub:Segment_Cold_Start ;
+    rdf:predicate hub:MITIGATES ;
+    rdf:subject hub:Content_Based_Filtering ;
+    prov:wasDerivedFrom "DOC-16" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_030 a rdf:Statement ;
+    rdf:object hub:Conversion_Rate ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:SASRec ;
+    prov:wasDerivedFrom "DOC-17" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_031 a rdf:Statement ;
+    rdf:object hub:20_кліків ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:Metric_LTV ;
+    prov:wasDerivedFrom "DOC-17" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 60 .
+
+hub:Stmt_032 a rdf:Statement ;
+    rdf:object hub:Segment_Prime ;
+    rdf:predicate hub:APPLIES_TO ;
+    rdf:subject hub:BNPL_Installment ;
+    prov:wasDerivedFrom "DOC-18" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_033 a rdf:Statement ;
+    rdf:object hub:Segment_Cold_Start ;
+    rdf:predicate hub:MITIGATES ;
+    rdf:subject hub:Personalized_PageRank ;
+    prov:wasDerivedFrom "DOC-19" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_034 a rdf:Statement ;
+    rdf:object hub:PCI_DSS ;
+    rdf:predicate hub:GOVERNED_BY ;
+    rdf:subject hub:Credit_Limit ;
+    prov:wasDerivedFrom "DOC-20" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_035 a rdf:Statement ;
+    rdf:object hub:5pct ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:Utilization_Rate ;
+    prov:wasDerivedFrom "DOC-20" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 64 .
+
+hub:Stmt_036 a rdf:Statement ;
+    rdf:object hub:5pct ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:75pct ;
+    prov:wasDerivedFrom "DOC-20" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 64 .
+
+hub:Stmt_037 a rdf:Statement ;
+    rdf:object hub:MRR ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:Hybrid_RRF ;
+    prov:wasDerivedFrom "DOC-21" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_038 a rdf:Statement ;
+    rdf:object hub:Metric_Refund_Rate ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:Margin_Aware_Ranking ;
+    prov:wasDerivedFrom "DOC-22" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_039 a rdf:Statement ;
+    rdf:object hub:5pct ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:Metric_Refund_Rate ;
+    prov:wasDerivedFrom "DOC-22" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 73 .
+
+hub:Stmt_040 a rdf:Statement ;
+    rdf:object hub:5pct ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:25pct ;
+    prov:wasDerivedFrom "DOC-22" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 73 .
+
+hub:Stmt_041 a rdf:Statement ;
+    rdf:object hub:Segment_VIP ;
+    rdf:predicate hub:APPLIES_TO ;
+    rdf:subject hub:Cashback_Card ;
+    prov:wasDerivedFrom "DOC-23" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_042 a rdf:Statement ;
+    rdf:object hub:1000_грн ;
+    rdf:predicate hub:USES_FEATURE ;
+    rdf:subject hub:MCC_5732 ;
+    prov:wasDerivedFrom "DOC-23" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 64 .
+
+hub:Stmt_043 a rdf:Statement ;
+    rdf:object hub:Metric_Precision_10 ;
+    rdf:predicate hub:OPTIMIZES ;
+    rdf:subject hub:Antifraud_Filter ;
+    prov:wasDerivedFrom "DOC-24" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 0 .
+
+hub:Stmt_044 a rdf:Statement ;
+    rdf:object hub:80pct ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:MCC_6012 ;
+    prov:wasDerivedFrom "DOC-24" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 65 .
+
+hub:Stmt_045 a rdf:Statement ;
+    rdf:object hub:80pct ;
+    rdf:predicate hub:HAS_THRESHOLD ;
+    rdf:subject hub:60 ;
+    prov:wasDerivedFrom "DOC-24" ;
+    hub:confidence "0.96"^^xsd:float ;
+    hub:model "gemini-2.5-pro" ;
+    hub:startOffset 65 .
+
+hub:75pct a hub:THRESHOLD ;
+    rdfs:label "75%"@uk ;
+    hub:HAS_THRESHOLD hub:5pct .
+
+hub:BM25 a hub:ALGORITHM ;
+    rdfs:label "BM25"@uk ;
+    hub:HAS_THRESHOLD hub:60 .
+
+hub:Collaborative_Filtering a hub:ALGORITHM ;
+    rdfs:label "Колаборативна фільтрація"@uk ;
+    hub:OPTIMIZES hub:Metric_Precision_10 .
+
+hub:Content_Based_Filtering a hub:ALGORITHM ;
+    rdfs:label "Контентна фільтрація"@uk ;
+    hub:MITIGATES hub:Segment_Cold_Start .
+
+hub:Coverage a hub:METRIC ;
+    rdfs:label "Coverage"@uk ;
+    hub:OPTIMIZES hub:0.05 .
+
+hub:Cross_Sell_Widget a hub:ALGORITHM ;
+    rdfs:label "Cross-sell віджет"@uk ;
+    hub:OPTIMIZES hub:AOV .
+
+hub:Default_Rate a hub:METRIC ;
+    rdfs:label "Default Rate"@uk ;
+    hub:HAS_THRESHOLD hub:5pct .
+
+hub:MCC_5411 a hub:CODE_STD ;
+    rdfs:label "MCC 5411"@uk ;
+    hub:USES_FEATURE hub:30_днів .
+
+hub:MCC_6012 a hub:CODE_STD ;
+    rdfs:label "MCC 6012"@uk ;
+    hub:HAS_THRESHOLD hub:80pct .
+
+hub:RFM_Scoring a hub:ALGORITHM ;
+    rdfs:label "RFM-скоринг"@uk ;
+    hub:USES_FEATURE hub:90_днів .
+
+hub:SKU_Ontology a hub:ALGORITHM ;
+    rdfs:label "Онтологія SKU"@uk ;
+    hub:MITIGATES hub:Segment_Cold_Start .
+
+hub:Time_Decay a hub:ALGORITHM ;
+    rdfs:label "Time Decay"@uk ;
+    hub:USES_FEATURE hub:0.02 .
+
+hub:Two_Stage_RecSys a hub:ALGORITHM ;
+    rdfs:label "Двохетапна архітектура"@uk ;
+    hub:OPTIMIZES hub:Latency .
+
+hub:User2Vec a hub:ALGORITHM ;
+    rdfs:label "User2Vec"@uk ;
+    hub:USES_FEATURE hub:MCC_5732 .
+
+hub:Utilization_Rate a hub:METRIC ;
+    rdfs:label "Utilization Rate"@uk ;
+    hub:HAS_THRESHOLD hub:5pct .
+
+hub:0.02 a hub:THRESHOLD ;
+    rdfs:label "0.02"@uk .
+
+hub:0.05 a hub:THRESHOLD ;
+    rdfs:label "0.05"@uk .
+
+hub:1000_грн a hub:THRESHOLD ;
+    rdfs:label "1000 грн"@uk .
+
+hub:20_кліків a hub:THRESHOLD ;
+    rdfs:label "20 кліків"@uk .
+
+hub:25pct a hub:THRESHOLD ;
+    rdfs:label "25%"@uk ;
+    hub:HAS_THRESHOLD hub:5pct .
+
+hub:300pct a hub:THRESHOLD ;
+    rdfs:label "300%"@uk .
+
+hub:30_днів a hub:THRESHOLD ;
+    rdfs:label "30 днів"@uk .
+
+hub:AOV a hub:METRIC ;
+    rdfs:label "AOV"@uk .
+
+hub:Antifraud_Filter a hub:ALGORITHM ;
+    rdfs:label "Антифрод-фільтр"@uk ;
+    hub:MITIGATES hub:Segment_At_Risk ;
+    hub:OPTIMIZES hub:Metric_Precision_10 .
+
+hub:Conversion_Rate a hub:METRIC ;
+    rdfs:label "Conversion Rate"@uk .
+
+hub:Credit_Limit a hub:FIN_PRODUCT ;
+    rdfs:label "Кредитний ліміт"@uk ;
+    hub:APPLIES_TO hub:Segment_Prime ;
+    hub:GOVERNED_BY hub:PCI_DSS .
+
+hub:Latency a hub:METRIC ;
+    rdfs:label "Latency"@uk .
+
+hub:MRR a hub:METRIC ;
+    rdfs:label "MRR"@uk .
+
+hub:Margin_Aware_Ranking a hub:ALGORITHM ;
+    rdfs:label "Margin-aware ранжування"@uk ;
+    hub:OPTIMIZES hub:Net_Margin ;
+    hub:USES_FEATURE hub:Metric_Refund_Rate .
+
+hub:Metric_CTR a hub:METRIC ;
+    rdfs:label "CTR"@uk .
+
+hub:Metric_LTV a hub:METRIC ;
+    rdfs:label "LTV"@uk ;
+    hub:HAS_THRESHOLD hub:90_днів ;
+    hub:USES_FEATURE hub:20_кліків .
+
+hub:Metric_Recall_5 a hub:METRIC ;
+    rdfs:label "Recall@5"@uk .
+
+hub:Net_Margin a hub:METRIC ;
+    rdfs:label "Net Margin"@uk .
+
+hub:Personalized_PageRank a hub:ALGORITHM ;
+    rdfs:label "Personalized PageRank"@uk ;
+    hub:MITIGATES hub:Segment_Cold_Start ;
+    hub:OPTIMIZES hub:nDCG_10 .
+
+hub:SASRec a hub:ALGORITHM ;
+    rdfs:label "SASRec"@uk ;
+    hub:OPTIMIZES hub:Conversion_Rate,
+        hub:Metric_CTR .
+
+hub:Segment_At_Risk a hub:SEGMENT ;
+    rdfs:label "At-Risk"@uk .
+
+hub:nDCG_10 a hub:METRIC ;
+    rdfs:label "nDCG@10"@uk .
+
+hub:Cashback_Card a hub:FIN_PRODUCT ;
+    rdfs:label "Кешбек-картка"@uk ;
+    hub:APPLIES_TO hub:Segment_Loyal,
+        hub:Segment_VIP ;
+    hub:USES_FEATURE hub:MCC_5732 .
+
+hub:Hybrid_RRF a hub:ALGORITHM ;
+    rdfs:label "Hybrid RRF"@uk ;
+    hub:OPTIMIZES hub:MRR,
+        hub:Metric_Recall_5 ;
+    hub:USES_FEATURE hub:60 .
+
+hub:80pct a hub:THRESHOLD ;
+    rdfs:label "80%"@uk .
+
+hub:90_днів a hub:THRESHOLD ;
+    rdfs:label "90 днів"@uk .
+
+hub:BNPL_Installment a hub:FIN_PRODUCT ;
+    rdfs:label "BNPL-розстрочка"@uk ;
+    hub:APPLIES_TO hub:Segment_Prime,
+        hub:Segment_VIP ;
+    hub:GOVERNED_BY hub:5pct ;
+    hub:USES_FEATURE hub:Segment_Loyal .
+
+hub:Metric_Precision_10 a hub:METRIC ;
+    rdfs:label "Precision@10"@uk .
+
+hub:Metric_Refund_Rate a hub:METRIC ;
+    rdfs:label "Refund Rate"@uk ;
+    hub:HAS_THRESHOLD hub:5pct ;
+    hub:USES_FEATURE hub:5pct .
+
+hub:PCI_DSS a hub:CODE_STD ;
+    rdfs:label "PCI DSS"@uk ;
+    hub:HAS_THRESHOLD hub:300pct,
+        hub:5pct .
+
+hub:Segment_Loyal a hub:SEGMENT ;
+    rdfs:label "Loyal-клієнти"@uk .
+
+hub:Segment_Prime a hub:SEGMENT ;
+    rdfs:label "Prime-позичальники"@uk .
+
+hub:Segment_VIP a hub:SEGMENT ;
+    rdfs:label "VIP-клієнти"@uk .
+
+hub:60 a hub:THRESHOLD ;
+    rdfs:label "60"@uk ;
+    hub:HAS_THRESHOLD hub:80pct .
+
+hub:MCC_5732 a hub:CODE_STD ;
+    rdfs:label "MCC 5732"@uk ;
+    hub:USES_FEATURE hub:1000_грн .
+
+hub:Segment_Cold_Start a hub:SEGMENT ;
+    rdfs:label "Cold Start"@uk .
+
+hub:5pct a hub:THRESHOLD ;
+    rdfs:label "5%"@uk .
+
