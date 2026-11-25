@@ -1,0 +1,10 @@
+numpy>=1.26.0
+pandas>=2.2.0
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+plotly>=5.20.0
+kaleido>=0.2.1
+tqdm>=4.66.0

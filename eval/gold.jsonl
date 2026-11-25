@@ -1,0 +1,45 @@
+{"query_id": "Q-KW-01", "type": "keyword", "query": "RFM-сегментація клієнтів", "relevant_docs": ["DOC-01"], "answerable": true}
+{"query_id": "Q-KW-02", "type": "keyword", "query": "Колаборативна фільтрація матриці транзакцій", "relevant_docs": ["DOC-02"], "answerable": true}
+{"query_id": "Q-KW-03", "type": "keyword", "query": "Контентні рекомендації фінансових продуктів", "relevant_docs": ["DOC-03"], "answerable": true}
+{"query_id": "Q-KW-04", "type": "keyword", "query": "Проблема холодного старту Cold Start", "relevant_docs": ["DOC-04"], "answerable": true}
+{"query_id": "Q-KW-05", "type": "keyword", "query": "Скоринг платоспроможності BNPL-розстрочки", "relevant_docs": ["DOC-05"], "answerable": true}
+{"query_id": "Q-KW-06", "type": "keyword", "query": "Аналіз покинутих кошиків", "relevant_docs": ["DOC-06"], "answerable": true}
+{"query_id": "Q-KW-07", "type": "keyword", "query": "Метрики Precision@K Recall@K nDCG", "relevant_docs": ["DOC-07"], "answerable": true}
+{"query_id": "Q-KW-08", "type": "keyword", "query": "Персоналізований PageRank дводольний граф", "relevant_docs": ["DOC-08"], "answerable": true}
+{"query_id": "Q-KW-09", "type": "keyword", "query": "Розрахунок LTV Lifetime Value", "relevant_docs": ["DOC-09"], "answerable": true}
+{"query_id": "Q-KW-10", "type": "keyword", "query": "Рекомендації кешбек-категорій MCC-коди", "relevant_docs": ["DOC-10"], "answerable": true}
+{"query_id": "Q-KW-11", "type": "keyword", "query": "PCI DSS токенізація платіжних даних", "relevant_docs": ["DOC-11"], "answerable": true}
+{"query_id": "Q-KW-12", "type": "keyword", "query": "Експоненційне згасання Time Decay", "relevant_docs": ["DOC-12"], "answerable": true}
+{"query_id": "Q-KW-13", "type": "keyword", "query": "Антифрод-фільтрація аномальних сплесків", "relevant_docs": ["DOC-13"], "answerable": true}
+{"query_id": "Q-KW-14", "type": "keyword", "query": "Двохетапний Retrieval Ranking", "relevant_docs": ["DOC-14"], "answerable": true}
+{"query_id": "Q-KW-15", "type": "keyword", "query": "Ембедінги користувачів User2Vec", "relevant_docs": ["DOC-15"], "answerable": true}
+{"query_id": "Q-PA-01", "type": "paraphrase", "query": "Як визначити цінність покупця за давністю та частотою його замовлень?", "relevant_docs": ["DOC-01"], "answerable": true}
+{"query_id": "Q-PA-02", "type": "paraphrase", "query": "Що робити, коли новий клієнт ще не здійснив жодної покупки в магазині?", "relevant_docs": ["DOC-04"], "answerable": true}
+{"query_id": "Q-PA-03", "type": "paraphrase", "query": "Чи дадуть покупцю оплату частинами, якщо він має прострочення?", "relevant_docs": ["DOC-05"], "answerable": true}
+{"query_id": "Q-PA-04", "type": "paraphrase", "query": "Як повернути користувача, який додав товар у кошик, але не оплатив?", "relevant_docs": ["DOC-06"], "answerable": true}
+{"query_id": "Q-PA-05", "type": "paraphrase", "query": "Чому кліки не завжди означають прибуток у рекомендаційних системах?", "relevant_docs": ["DOC-22"], "answerable": true}
+{"query_id": "Q-PA-06", "type": "paraphrase", "query": "Як зменшити вагу покупок, зроблених рік тому, порівняно зі вчорашніми?", "relevant_docs": ["DOC-12"], "answerable": true}
+{"query_id": "Q-PA-07", "type": "paraphrase", "query": "Як захистити банківські картки клієнтів при побудові векторних профілів?", "relevant_docs": ["DOC-11"], "answerable": true}
+{"query_id": "Q-PA-08", "type": "paraphrase", "query": "Яким чином бізнес вимірює реальний грошовий приріст від алгоритму?", "relevant_docs": ["DOC-16"], "answerable": true}
+{"query_id": "Q-PA-09", "type": "paraphrase", "query": "Що запропонувати клієнту безпосередньо перед натисканням кнопки Оплатити?", "relevant_docs": ["DOC-17"], "answerable": true}
+{"query_id": "Q-PA-10", "type": "paraphrase", "query": "Як не показувати покупцю постійно однакові товари з однієї категорії?", "relevant_docs": ["DOC-18"], "answerable": true}
+{"query_id": "Q-PA-11", "type": "paraphrase", "query": "Як враховувати історію повернень замовлень при формуванні видачі?", "relevant_docs": ["DOC-23"], "answerable": true}
+{"query_id": "Q-PA-12", "type": "paraphrase", "query": "Як поєднати пошуковий рядок сайту з історією банківських транзакцій?", "relevant_docs": ["DOC-24"], "answerable": true}
+{"query_id": "Q-PA-13", "type": "paraphrase", "query": "Як нейросеть SASRec передбачає наступний клік у поточній сесії?", "relevant_docs": ["DOC-21"], "answerable": true}
+{"query_id": "Q-PA-14", "type": "paraphrase", "query": "Як визначити категорію магазину за банківським кодом терміналу?", "relevant_docs": ["DOC-10"], "answerable": true}
+{"query_id": "Q-PA-15", "type": "paraphrase", "query": "Як граф зв'язків між покупцями та товарами допомагає знаходити схожість?", "relevant_docs": ["DOC-08"], "answerable": true}
+{"query_id": "Q-MH-01", "type": "multi_hop", "query": "Як поєднати RFM-сегментацію та розрахунок LTV для ранжування VIP-клієнтів?", "relevant_docs": ["DOC-01", "DOC-09"], "answerable": true}
+{"query_id": "Q-MH-02", "type": "multi_hop", "query": "Як скоринг BNPL враховує кредитний ліміт та антифрод-перевірку сплесків?", "relevant_docs": ["DOC-05", "DOC-13", "DOC-19"], "answerable": true}
+{"query_id": "Q-MH-03", "type": "multi_hop", "query": "Як двохетапна архітектура використовує User2Vec та SASRec для сесійної видачі?", "relevant_docs": ["DOC-14", "DOC-15", "DOC-21"], "answerable": true}
+{"query_id": "Q-MH-04", "type": "multi_hop", "query": "Як налаштувати cross-sell на чекауті з урахуванням маржинальності та штрафів за повернення?", "relevant_docs": ["DOC-17", "DOC-22", "DOC-23"], "answerable": true}
+{"query_id": "Q-MH-05", "type": "multi_hop", "query": "Як захистити дані MCC-кодів за стандартом PCI DSS при навчанні моделі?", "relevant_docs": ["DOC-10", "DOC-11"], "answerable": true}
+{"query_id": "Q-MH-06", "type": "multi_hop", "query": "Як оцінити вплив диверсифікації видачі на GMV через A/B тестування?", "relevant_docs": ["DOC-16", "DOC-18"], "answerable": true}
+{"query_id": "Q-MH-07", "type": "multi_hop", "query": "Як подолати холодний старт за допомогою контентних ознак та онтології товарів?", "relevant_docs": ["DOC-03", "DOC-04", "DOC-20"], "answerable": true}
+{"query_id": "Q-MH-08", "type": "multi_hop", "query": "Як граф PageRank поєднується з часовим згасанням ваг покупок?", "relevant_docs": ["DOC-08", "DOC-12"], "answerable": true}
+{"query_id": "Q-MH-09", "type": "multi_hop", "query": "Як пов'язати покинуті кошики з історією пошукових запитів клієнта?", "relevant_docs": ["DOC-06", "DOC-24"], "answerable": true}
+{"query_id": "Q-MH-10", "type": "multi_hop", "query": "Які метрики offline (nDCG) та online (GMV) застосовують для валідації моделей?", "relevant_docs": ["DOC-07", "DOC-16"], "answerable": true}
+{"query_id": "Q-UN-01", "type": "unanswerable", "query": "Які ставки податку на прибуток для банків України у 2026 році згідно з Податковим кодексом?", "relevant_docs": [], "answerable": false}
+{"query_id": "Q-UN-02", "type": "unanswerable", "query": "Як налаштувати апаратний криптогаманець Ledger для підпису транзакцій у мережі Ethereum?", "relevant_docs": [], "answerable": false}
+{"query_id": "Q-UN-03", "type": "unanswerable", "query": "Який рецепт приготування класичного львівського сирника?", "relevant_docs": [], "answerable": false}
+{"query_id": "Q-UN-04", "type": "unanswerable", "query": "Як виконати міграцію бази даних Oracle 19c на кластер Kubernetes без простою?", "relevant_docs": [], "answerable": false}
+{"query_id": "Q-UN-05", "type": "unanswerable", "query": "Які вимоги до отримання ліцензії Національного банку на випуск електронних грошей?", "relevant_docs": [], "answerable": false}
