@@ -1,0 +1,17 @@
+@prefix hub: <https://hub.lnu.edu.ua/kg/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hub:BNPL_Installment a hub:FinProduct ; rdfs:label "BNPL-розстрочка" ; hub:maxLimit 75000 ; hub:mccCode "6012" ; hub:governedBy hub:PCI_DSS ; prov:wasDerivedFrom "DOC-18" .
+hub:Cashback_Card a hub:FinProduct ; rdfs:label "Кешбек-картка" ; hub:cashbackPct 5.0 ; hub:mccCode "5411" ; prov:wasDerivedFrom "DOC-06" .
+hub:Credit_Limit a hub:FinProduct ; rdfs:label "Кредитний ліміт" ; hub:maxLimit 150000 ; hub:appliesTo hub:Prime_Borrowers ; prov:wasDerivedFrom "DOC-08" .
+hub:Hybrid_RRF a hub:Algorithm ; rdfs:label "Hybrid RRF" ; hub:optimizes hub:Recall_5 ; hub:mitigates hub:Cold_Start ; prov:wasDerivedFrom "DOC-01" .
+hub:SASRec a hub:Algorithm ; rdfs:label "SASRec" ; hub:optimizes hub:CTR, hub:Conversion_Rate ; prov:wasDerivedFrom "DOC-02" .
+hub:Margin_Ranking a hub:Algorithm ; rdfs:label "Margin-aware ранжування" ; hub:usesFeature hub:Refund_Rate ; prov:wasDerivedFrom "DOC-10" .
+hub:PCI_DSS a hub:Standard ; rdfs:label "PCI DSS" ; prov:wasDerivedFrom "DOC-03" .
+hub:Prime_Borrowers a hub:Segment ; rdfs:label "Prime-позичальники" ; prov:wasDerivedFrom "DOC-08" .
+hub:Cold_Start a hub:Segment ; rdfs:label "Cold Start" ; prov:wasDerivedFrom "DOC-04" .
+hub:Recall_5 a hub:Metric ; rdfs:label "Recall@5" ; prov:wasDerivedFrom "DOC-01" .
+hub:CTR a hub:Metric ; rdfs:label "CTR" ; prov:wasDerivedFrom "DOC-02" .
+hub:Conversion_Rate a hub:Metric ; rdfs:label "Conversion Rate" ; prov:wasDerivedFrom "DOC-17" .
+hub:Refund_Rate a hub:Metric ; rdfs:label "Refund Rate" ; hub:thresholdPct 25.0 ; prov:wasDerivedFrom "DOC-10" .

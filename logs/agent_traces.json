@@ -1,0 +1,218 @@
+[
+  {
+    "query_id": "Q-1",
+    "query": "Який актуальний ліміт та MCC-код для BNPL-розстрочка?",
+    "status": "answered",
+    "answer": "За даними сховища (DOC-03, DOC-06, DOC-18): BNPL_Installment rdf-schema#label BNPL-розстрочка; BNPL_Installment governedBy PCI_DSS; BNPL_Installment mccCode 6012. [Виявлено розбіжність джерел: DOC-03 вказує ліміт 50000 грн, актуальний DOC-18 — 75000 грн].",
+    "citations": [
+      "DOC-03",
+      "DOC-06",
+      "DOC-18"
+    ],
+    "steps": 4,
+    "latency_ms": 4.43,
+    "cost_usd": 0.0016,
+    "trace": [
+      {
+        "node": "plan",
+        "planned_calls": [
+          "query_kg_sparql",
+          "search_docs_vector"
+        ]
+      },
+      {
+        "node": "retrieve",
+        "tool": "query_kg_sparql",
+        "args": {
+          "entity_keyword": "BNPL"
+        },
+        "latency_ms": 4.1
+      },
+      {
+        "node": "retrieve",
+        "tool": "search_docs_vector",
+        "args": {
+          "query": "Який актуальний ліміт та MCC-код для BNPL-розстрочка?",
+          "top_k": 3
+        },
+        "latency_ms": 0.28
+      },
+      {
+        "node": "verify_citations",
+        "verified_count": 8,
+        "citations": [
+          "DOC-03",
+          "DOC-06",
+          "DOC-18"
+        ]
+      }
+    ]
+  },
+  {
+    "query_id": "Q-2",
+    "query": "Яка конверсія та середній чек для Кешбек-картка у сегменті VIP?",
+    "status": "answered",
+    "answer": "За даними сховища (DOC-06, OLAP-2026-Q3): Cashback_Card rdf-schema#label Кешбек-картка; Кешбек-картка надає 5.0% повернення для продуктових супермаркетів з кодом MCC 5411.; Кешбек-картка (VIP-клієнти): конверсія 18.2%, середній чек 4200.0 грн.",
+    "citations": [
+      "DOC-06",
+      "OLAP-2026-Q3"
+    ],
+    "steps": 5,
+    "latency_ms": 4.51,
+    "cost_usd": 0.002,
+    "trace": [
+      {
+        "node": "plan",
+        "planned_calls": [
+          "query_kg_sparql",
+          "search_docs_vector",
+          "query_olap_sql"
+        ]
+      },
+      {
+        "node": "retrieve",
+        "tool": "query_kg_sparql",
+        "args": {
+          "entity_keyword": "Кешбек"
+        },
+        "latency_ms": 1.52
+      },
+      {
+        "node": "retrieve",
+        "tool": "search_docs_vector",
+        "args": {
+          "query": "Яка конверсія та середній чек для Кешбек-картка у сегменті VIP?",
+          "top_k": 3
+        },
+        "latency_ms": 0.07
+      },
+      {
+        "node": "retrieve",
+        "tool": "query_olap_sql",
+        "args": {
+          "product": "Кешбек"
+        },
+        "latency_ms": 2.89
+      },
+      {
+        "node": "verify_citations",
+        "verified_count": 3,
+        "citations": [
+          "DOC-06",
+          "OLAP-2026-Q3"
+        ]
+      }
+    ]
+  },
+  {
+    "query_id": "Q-3",
+    "query": "Що оптимізує алгоритм Hybrid RRF?",
+    "status": "answered",
+    "answer": "За даними сховища (DOC-01): Hybrid_RRF rdf-schema#label Hybrid RRF; Hybrid_RRF mitigates Cold_Start; Hybrid_RRF prov#wasDerivedFrom DOC-01.",
+    "citations": [
+      "DOC-01"
+    ],
+    "steps": 4,
+    "latency_ms": 1.45,
+    "cost_usd": 0.0016,
+    "trace": [
+      {
+        "node": "plan",
+        "planned_calls": [
+          "query_kg_sparql",
+          "search_docs_vector"
+        ]
+      },
+      {
+        "node": "retrieve",
+        "tool": "query_kg_sparql",
+        "args": {
+          "entity_keyword": "Hybrid"
+        },
+        "latency_ms": 1.36
+      },
+      {
+        "node": "retrieve",
+        "tool": "search_docs_vector",
+        "args": {
+          "query": "Що оптимізує алгоритм Hybrid RRF?",
+          "top_k": 3
+        },
+        "latency_ms": 0.08
+      },
+      {
+        "node": "verify_citations",
+        "verified_count": 6,
+        "citations": [
+          "DOC-01"
+        ]
+      }
+    ]
+  },
+  {
+    "query_id": "Q-4",
+    "query": "Який поріг Refund Rate використовує Margin-aware ранжування?",
+    "status": "answered",
+    "answer": "За даними сховища (DOC-10): Margin_Ranking usesFeature Refund_Rate; Refund_Rate rdf-schema#label Refund Rate; Refund_Rate prov#wasDerivedFrom DOC-10.",
+    "citations": [
+      "DOC-10"
+    ],
+    "steps": 4,
+    "latency_ms": 1.45,
+    "cost_usd": 0.0016,
+    "trace": [
+      {
+        "node": "plan",
+        "planned_calls": [
+          "query_kg_sparql",
+          "search_docs_vector"
+        ]
+      },
+      {
+        "node": "retrieve",
+        "tool": "query_kg_sparql",
+        "args": {
+          "entity_keyword": "Refund"
+        },
+        "latency_ms": 1.36
+      },
+      {
+        "node": "retrieve",
+        "tool": "search_docs_vector",
+        "args": {
+          "query": "Який поріг Refund Rate використовує Margin-aware ранжування?",
+          "top_k": 3
+        },
+        "latency_ms": 0.07
+      },
+      {
+        "node": "verify_citations",
+        "verified_count": 6,
+        "citations": [
+          "DOC-10"
+        ]
+      }
+    ]
+  },
+  {
+    "query_id": "Q-5",
+    "query": "Який курс біткоїна на Марсі у 2030 році?",
+    "status": "abstained",
+    "answer": "Недостатньо підтверджених даних у сховищі знань для відповіді на цей запит (Abstention).",
+    "citations": [],
+    "steps": 2,
+    "latency_ms": 0.01,
+    "cost_usd": 0.0008,
+    "trace": [
+      {
+        "node": "plan",
+        "planned_calls": []
+      },
+      {
+        "node": "verify_citations",
+        "verified_count": 0,
+        "citations": []
+      }
+    ]
+  }
+]

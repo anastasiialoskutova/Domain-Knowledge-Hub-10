@@ -1,0 +1,10 @@
+{"id": "SC-01", "type": "success", "query": "Який актуальний ліміт для BNPL-розстрочка?", "expected_tool": "query_kg_sparql", "expected_status": "answered"}
+{"id": "SC-02", "type": "success", "query": "Який код MCC має Кешбек-картка?", "expected_tool": "query_kg_sparql", "expected_status": "answered"}
+{"id": "SC-03", "type": "success", "query": "Що оптимізує алгоритм Hybrid RRF?", "expected_tool": "query_kg_sparql", "expected_status": "answered"}
+{"id": "SC-04", "type": "success", "query": "Яка конверсія для BNPL-розстрочка у сегменті VIP?", "expected_tool": "query_olap_sql", "expected_status": "answered"}
+{"id": "SC-05", "type": "success", "query": "Який поріг Refund Rate вказано у документах?", "expected_tool": "search_docs_vector", "expected_status": "answered"}
+{"id": "SC-06", "type": "unknown", "query": "Який ліміт для іпотеки у Польщі?", "expected_tool": "none", "expected_status": "abstained"}
+{"id": "SC-07", "type": "unknown", "query": "Яка процентна ставка за автокредитом у 2027 році?", "expected_tool": "none", "expected_status": "abstained"}
+{"id": "SC-08", "type": "unknown", "query": "Скільки коштує акція компанії Apple?", "expected_tool": "none", "expected_status": "abstained"}
+{"id": "SC-09", "type": "conflict", "query": "Порівняй ліміт BNPL-розстрочка у документах DOC-03 та DOC-18", "expected_tool": "search_docs_vector", "expected_status": "answered"}
+{"id": "SC-10", "type": "conflict", "query": "Який ліміт та MCC-код має BNPL-розстрочка за різними джерелами?", "expected_tool": "query_kg_sparql", "expected_status": "answered"}
