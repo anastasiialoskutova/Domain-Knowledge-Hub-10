@@ -1,0 +1,13 @@
+{
+  "version": "baseline-v1.0-2026-11-26",
+  "total_triples": 85,
+  "total_entities": 18,
+  "completeness_label_pct": 94.4,
+  "provenance_coverage_pct": 77.8,
+  "uniqueness_pct": 77.8,
+  "consistency_pct": 83.3,
+  "accuracy_expert_n32_pct": 87.5,
+  "timeliness_2026_pct": 83.3,
+  "validity_shacl_pct": 83.3,
+  "availability_sparql_ms": 14.2
+}

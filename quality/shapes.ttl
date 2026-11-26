@@ -1,0 +1,20 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix hub: <https://hub.lnu.edu.ua/kg/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hub:EntityBaseShape a sh:NodeShape ;
+    sh:targetClass hub:FinProduct, hub:Algorithm, hub:Metric, hub:Segment, hub:UserProfile, hub:Standard ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:message "SHACL-1: Відсутній rdfs:label" ] ;
+    sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:message "SHACL-2: Відсутнє походження prov:wasDerivedFrom" ] ;
+    sh:property [ sh:path hub:updatedAt ; sh:minCount 1 ; sh:datatype xsd:date ; sh:message "SHACL-3: Відсутня або некоректна дата updatedAt" ] .
+
+hub:FinProductShape a sh:NodeShape ;
+    sh:targetClass hub:FinProduct ;
+    sh:property [ sh:path hub:maxLimit ; sh:maxCount 1 ; sh:minInclusive 0 ; sh:message "SHACL-4: Некоректний або дубльований maxLimit" ] ;
+    sh:property [ sh:path hub:mccCode ; sh:pattern "^[0-9]{4}$" ; sh:message "SHACL-5: Код MCC має складатися з 4 цифр" ] .
+
+hub:UserProfileShape a sh:NodeShape ;
+    sh:targetClass hub:UserProfile ;
+    sh:property [ sh:path hub:creditScore ; sh:minInclusive 0 ; sh:maxInclusive 1000 ; sh:message "SHACL-6: creditScore поза діапазоном [0..1000]" ] .

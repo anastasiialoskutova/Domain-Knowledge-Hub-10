@@ -1,0 +1,101 @@
+pair_id,split,name_a,name_b,mcc_a,mcc_b,type,is_dup
+P-001,dev,BNPL-розстрочка,Оплата частинами BNPL,6012,6012,FinProduct,1
+P-002,dev,Кешбек-картка,Картка з кешбеком,5411,5411,FinProduct,1
+P-003,dev,Hybrid RRF,Hybrid Reciprocal Rank Fusion,N/A,N/A,Algorithm,1
+P-004,dev,SASRec,SASRec Session Model,N/A,N/A,Algorithm,1
+P-005,dev,Refund Rate,Рівень повернень (Refund Rate),N/A,N/A,Metric,1
+P-006,dev,BNPL-розстрочка,Кешбек-картка,6012,5411,FinProduct,0
+P-007,dev,Hybrid RRF,SASRec,N/A,N/A,Algorithm,0
+P-008,dev,VIP-клієнти,Subprime-клієнти,N/A,N/A,Segment,0
+P-009,dev,Recall@5,Conversion Rate,N/A,N/A,Metric,0
+P-010,dev,PCI DSS,MCC 6012,N/A,6012,Standard,0
+P-011,dev,BNPL-розстрочка,Оплата частинами BNPL,6012,6012,FinProduct,1
+P-012,dev,Кешбек-картка,Картка з кешбеком,5411,5411,FinProduct,1
+P-013,dev,Hybrid RRF,Hybrid Reciprocal Rank Fusion,N/A,N/A,Algorithm,1
+P-014,dev,SASRec,SASRec Session Model,N/A,N/A,Algorithm,1
+P-015,dev,Refund Rate,Рівень повернень (Refund Rate),N/A,N/A,Metric,1
+P-016,dev,BNPL-розстрочка,Кешбек-картка,6012,5411,FinProduct,0
+P-017,dev,Hybrid RRF,SASRec,N/A,N/A,Algorithm,0
+P-018,dev,VIP-клієнти,Subprime-клієнти,N/A,N/A,Segment,0
+P-019,dev,Recall@5,Conversion Rate,N/A,N/A,Metric,0
+P-020,dev,PCI DSS,MCC 6012,N/A,6012,Standard,0
+P-021,dev,BNPL-розстрочка,Оплата частинами BNPL,6012,6012,FinProduct,1
+P-022,dev,Кешбек-картка,Картка з кешбеком,5411,5411,FinProduct,1
+P-023,dev,Hybrid RRF,Hybrid Reciprocal Rank Fusion,N/A,N/A,Algorithm,1
+P-024,dev,SASRec,SASRec Session Model,N/A,N/A,Algorithm,1
+P-025,dev,Refund Rate,Рівень повернень (Refund Rate),N/A,N/A,Metric,1
+P-026,dev,BNPL-розстрочка,Кешбек-картка,6012,5411,FinProduct,0
+P-027,dev,Hybrid RRF,SASRec,N/A,N/A,Algorithm,0
+P-028,dev,VIP-клієнти,Subprime-клієнти,N/A,N/A,Segment,0
+P-029,dev,Recall@5,Conversion Rate,N/A,N/A,Metric,0
+P-030,dev,PCI DSS,MCC 6012,N/A,6012,Standard,0
+P-031,dev,BNPL-розстрочка,Оплата частинами BNPL,6012,6012,FinProduct,1
+P-032,dev,Кешбек-картка,Картка з кешбеком,5411,5411,FinProduct,1
+P-033,dev,Hybrid RRF,Hybrid Reciprocal Rank Fusion,N/A,N/A,Algorithm,1
+P-034,dev,SASRec,SASRec Session Model,N/A,N/A,Algorithm,1
+P-035,dev,Refund Rate,Рівень повернень (Refund Rate),N/A,N/A,Metric,1
+P-036,dev,BNPL-розстрочка,Кешбек-картка,6012,5411,FinProduct,0
+P-037,dev,Hybrid RRF,SASRec,N/A,N/A,Algorithm,0
+P-038,dev,VIP-клієнти,Subprime-клієнти,N/A,N/A,Segment,0
+P-039,dev,Recall@5,Conversion Rate,N/A,N/A,Metric,0
+P-040,dev,PCI DSS,MCC 6012,N/A,6012,Standard,0
+P-041,dev,BNPL-розстрочка,Оплата частинами BNPL,6012,6012,FinProduct,1
+P-042,dev,Кешбек-картка,Картка з кешбеком,5411,5411,FinProduct,1
+P-043,dev,Hybrid RRF,Hybrid Reciprocal Rank Fusion,N/A,N/A,Algorithm,1
+P-044,dev,SASRec,SASRec Session Model,N/A,N/A,Algorithm,1
+P-045,dev,Refund Rate,Рівень повернень (Refund Rate),N/A,N/A,Metric,1
+P-046,dev,BNPL-розстрочка,Кешбек-картка,6012,5411,FinProduct,0
+P-047,dev,Hybrid RRF,SASRec,N/A,N/A,Algorithm,0
+P-048,dev,VIP-клієнти,Subprime-клієнти,N/A,N/A,Segment,0
+P-049,dev,Recall@5,Conversion Rate,N/A,N/A,Metric,0
+P-050,dev,PCI DSS,MCC 6012,N/A,6012,Standard,0
+P-051,test,BNPL-розстрочка,Оплата частинами BNPL,6012,6012,FinProduct,1
+P-052,test,Кешбек-картка,Картка з кешбеком,5411,5411,FinProduct,1
+P-053,test,Hybrid RRF,Hybrid Reciprocal Rank Fusion,N/A,N/A,Algorithm,1
+P-054,test,SASRec,SASRec Session Model,N/A,N/A,Algorithm,1
+P-055,test,Refund Rate,Рівень повернень (Refund Rate),N/A,N/A,Metric,1
+P-056,test,BNPL-розстрочка,Кешбек-картка,6012,5411,FinProduct,0
+P-057,test,Hybrid RRF,SASRec,N/A,N/A,Algorithm,0
+P-058,test,VIP-клієнти,Subprime-клієнти,N/A,N/A,Segment,0
+P-059,test,Recall@5,Conversion Rate,N/A,N/A,Metric,0
+P-060,test,PCI DSS,MCC 6012,N/A,6012,Standard,0
+P-061,test,BNPL-розстрочка,Оплата частинами BNPL,6012,6012,FinProduct,1
+P-062,test,Кешбек-картка,Картка з кешбеком,5411,5411,FinProduct,1
+P-063,test,Hybrid RRF,Hybrid Reciprocal Rank Fusion,N/A,N/A,Algorithm,1
+P-064,test,SASRec,SASRec Session Model,N/A,N/A,Algorithm,1
+P-065,test,Refund Rate,Рівень повернень (Refund Rate),N/A,N/A,Metric,1
+P-066,test,BNPL-розстрочка,Кешбек-картка,6012,5411,FinProduct,0
+P-067,test,Hybrid RRF,SASRec,N/A,N/A,Algorithm,0
+P-068,test,VIP-клієнти,Subprime-клієнти,N/A,N/A,Segment,0
+P-069,test,Recall@5,Conversion Rate,N/A,N/A,Metric,0
+P-070,test,PCI DSS,MCC 6012,N/A,6012,Standard,0
+P-071,test,BNPL-розстрочка,Оплата частинами BNPL,6012,6012,FinProduct,1
+P-072,test,Кешбек-картка,Картка з кешбеком,5411,5411,FinProduct,1
+P-073,test,Hybrid RRF,Hybrid Reciprocal Rank Fusion,N/A,N/A,Algorithm,1
+P-074,test,SASRec,SASRec Session Model,N/A,N/A,Algorithm,1
+P-075,test,Refund Rate,Рівень повернень (Refund Rate),N/A,N/A,Metric,1
+P-076,test,BNPL-розстрочка,Кешбек-картка,6012,5411,FinProduct,0
+P-077,test,Hybrid RRF,SASRec,N/A,N/A,Algorithm,0
+P-078,test,VIP-клієнти,Subprime-клієнти,N/A,N/A,Segment,0
+P-079,test,Recall@5,Conversion Rate,N/A,N/A,Metric,0
+P-080,test,PCI DSS,MCC 6012,N/A,6012,Standard,0
+P-081,test,BNPL-розстрочка,Оплата частинами BNPL,6012,6012,FinProduct,1
+P-082,test,Кешбек-картка,Картка з кешбеком,5411,5411,FinProduct,1
+P-083,test,Hybrid RRF,Hybrid Reciprocal Rank Fusion,N/A,N/A,Algorithm,1
+P-084,test,SASRec,SASRec Session Model,N/A,N/A,Algorithm,1
+P-085,test,Refund Rate,Рівень повернень (Refund Rate),N/A,N/A,Metric,1
+P-086,test,BNPL-розстрочка,Кешбек-картка,6012,5411,FinProduct,0
+P-087,test,Hybrid RRF,SASRec,N/A,N/A,Algorithm,0
+P-088,test,VIP-клієнти,Subprime-клієнти,N/A,N/A,Segment,0
+P-089,test,Recall@5,Conversion Rate,N/A,N/A,Metric,0
+P-090,test,PCI DSS,MCC 6012,N/A,6012,Standard,0
+P-091,test,BNPL-розстрочка,Оплата частинами BNPL,6012,6012,FinProduct,1
+P-092,test,Кешбек-картка,Картка з кешбеком,5411,5411,FinProduct,1
+P-093,test,Hybrid RRF,Hybrid Reciprocal Rank Fusion,N/A,N/A,Algorithm,1
+P-094,test,SASRec,SASRec Session Model,N/A,N/A,Algorithm,1
+P-095,test,Refund Rate,Рівень повернень (Refund Rate),N/A,N/A,Metric,1
+P-096,test,BNPL-розстрочка,Кешбек-картка,6012,5411,FinProduct,0
+P-097,test,Hybrid RRF,SASRec,N/A,N/A,Algorithm,0
+P-098,test,VIP-клієнти,Subprime-клієнти,N/A,N/A,Segment,0
+P-099,test,Recall@5,Conversion Rate,N/A,N/A,Metric,0
+P-100,test,PCI DSS,MCC 6012,N/A,6012,Standard,0

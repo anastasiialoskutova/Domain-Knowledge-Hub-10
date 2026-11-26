@@ -1,0 +1,23 @@
+@prefix hub: <https://hub.lnu.edu.ua/kg/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hub:BNPL_Installment a hub:FinProduct ; rdfs:label "BNPL-розстрочка" ; hub:maxLimit 50000 ; hub:mccCode "6012" ; prov:wasDerivedFrom "DOC-03" ; hub:updatedAt "2026-11-20"^^xsd:date .
+hub:BNPL_Installment_Dup a hub:FinProduct ; rdfs:label "Оплата частинами BNPL" ; hub:maxLimit 75000 ; hub:mccCode "6012" ; prov:wasDerivedFrom "DOC-18" ; hub:updatedAt "2026-11-24"^^xsd:date .
+hub:Cashback_Card a hub:FinProduct ; rdfs:label "Кешбек-картка" ; hub:cashbackPct 5.0 ; hub:mccCode "5411" ; prov:wasDerivedFrom "DOC-06" ; hub:updatedAt "2026-11-22"^^xsd:date .
+hub:Cashback_Card_Alias a hub:FinProduct ; rdfs:label "Картка з кешбеком" ; hub:cashbackPct 3.0 ; hub:mccCode "5411" ; hub:updatedAt "2025-01-10"^^xsd:date .
+hub:Hybrid_RRF a hub:Algorithm ; rdfs:label "Hybrid RRF" ; hub:optimizes hub:Recall_5 ; prov:wasDerivedFrom "DOC-01" ; hub:updatedAt "2026-11-21"^^xsd:date .
+hub:Hybrid_Reciprocal a hub:Algorithm ; rdfs:label "Hybrid Reciprocal Rank Fusion" ; hub:optimizes hub:Recall_5 ; prov:wasDerivedFrom "DOC-11" ; hub:updatedAt "2026-11-23"^^xsd:date .
+hub:SASRec a hub:Algorithm ; rdfs:label "SASRec" ; hub:optimizes hub:CTR ; prov:wasDerivedFrom "DOC-02" ; hub:updatedAt "2026-11-21"^^xsd:date .
+hub:SASRec_Model a hub:Algorithm ; rdfs:label "SASRec Session Model" ; hub:optimizes hub:Conversion_Rate ; prov:wasDerivedFrom "DOC-17" ; hub:updatedAt "2026-11-24"^^xsd:date .
+hub:VIP_Segment a hub:Segment ; rdfs:label "VIP-клієнти" ; hub:disjointWith hub:Subprime_Segment ; prov:wasDerivedFrom "DOC-03" ; hub:updatedAt "2026-11-20"^^xsd:date .
+hub:Subprime_Segment a hub:Segment ; rdfs:label "Subprime-клієнти" ; prov:wasDerivedFrom "DOC-07" ; hub:updatedAt "2026-11-20"^^xsd:date .
+hub:User_1042 a hub:UserProfile ; rdfs:label "Користувач U-1042" ; hub:inSegment hub:VIP_Segment, hub:Subprime_Segment ; hub:creditScore -50 ; hub:updatedAt "2026-11-25"^^xsd:date .
+hub:Refund_Rate a hub:Metric ; rdfs:label "Refund Rate" ; hub:thresholdPct 25.0 ; prov:wasDerivedFrom "DOC-10" ; hub:updatedAt "2026-11-22"^^xsd:date .
+hub:Refund_Rate_Old a hub:Metric ; rdfs:label "Рівень повернень (Refund Rate)" ; hub:thresholdPct 15.0 ; hub:updatedAt "2025-02-01"^^xsd:date .
+hub:PCI_DSS a hub:Standard ; rdfs:label "PCI DSS" ; prov:wasDerivedFrom "DOC-03" ; hub:updatedAt "2026-11-20"^^xsd:date .
+hub:Recall_5 a hub:Metric ; rdfs:label "Recall@5" ; prov:wasDerivedFrom "DOC-01" ; hub:updatedAt "2026-11-21"^^xsd:date .
+hub:CTR a hub:Metric ; rdfs:label "CTR" ; prov:wasDerivedFrom "DOC-02" ; hub:updatedAt "2026-11-21"^^xsd:date .
+hub:Conversion_Rate a hub:Metric ; rdfs:label "Conversion Rate" ; prov:wasDerivedFrom "DOC-17" ; hub:updatedAt "2026-11-24"^^xsd:date .
+hub:Orphan_Product a hub:FinProduct ; hub:maxLimit 10000 .

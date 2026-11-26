@@ -1,0 +1,12 @@
+name: Knowledge Graph Quality Gate
+on: [push, pull_request]
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install rdflib pyshacl pytest
+      - run: pytest -v quality/tests/test_quality_gate.py
