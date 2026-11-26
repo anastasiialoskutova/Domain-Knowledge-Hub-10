@@ -1,0 +1,7 @@
+rdflib
+numpy
+pandas
+scikit-learn
+matplotlib
+tabulate
+fpdf2

@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  knowledge-hub-demo:
+    build: .
+    container_name: domain_knowledge_hub_reco
+    environment:
+      - HUB_ENV=production
+      - SEED=42
+      - READ_ONLY_MODE=true
+    volumes:
+      - ./data:/app/data:ro
+      - ./figures:/app/figures
+    command: python3 demo_cli.py
